@@ -1,5 +1,5 @@
 # task1
-1. clone repository
+1. clone repository **git clone git@github.com:basic-php/task1.git**
 2. create **folder** name him your-name
 3. create file name him **index.php** inside folder your-name
 4. write **git add .** to add file 
