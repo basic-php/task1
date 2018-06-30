@@ -15,7 +15,7 @@
   }
  else if($mod > 8 )   // $mod equal 7 so the result of $mod  > 8  is false. 
   {
-    echo  "the mod is equal " . $mod . " and it is greater than  8";  // print if mod result equal greater than 8.
+    echo  "the mod is equal " . $mod . " and it is greater than  8";  // print if mod result greater than 8.
   }
  else   // $mod equal 7 so the result of $mod  < 8  is true. 
   {
