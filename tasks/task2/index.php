@@ -4,14 +4,14 @@ function Compare($date1,$date2)
 {
 if($date1 <2010 || $date2>2020)
 {
-  return "<p>date1 < 2010 or date2>2020</p>";
+  return "<p>date1 < 2010 or date2>2020</p>"; //return this when condtion is true
 }
  else
 {
    $sentence = "";
-   for($i = $date1;$i<=$date2;$i++)
+   for($i = $date1;$i<=$date2;$i++) //loop from date1 to date2
     $sentence .= $i . "<br>";
-    return $sentence;
+    return $sentence; // return all years
 }
 
 }
