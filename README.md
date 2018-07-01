@@ -1,4 +1,4 @@
-** My task **
+#My task
 1. clone repository **git clone git@github.com:basic-php/task1.git**
 2. create folder name him **name-task-number**
 3. create file name him **index.php** inside folder **name-task-number**
