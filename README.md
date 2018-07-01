@@ -1,4 +1,4 @@
-# task1
+** My task **
 1. clone repository **git clone git@github.com:basic-php/task1.git**
 2. create folder name him **name-task-number**
 3. create file name him **index.php** inside folder **name-task-number**
@@ -7,4 +7,3 @@
 6. write **git checkout -b your-branch** for change to your branch
 7. write **git push -u origin your-branch** 
 
-# ملاحظة في برانج ماستير يوجد ملف اسمه دكيومنتيشن سوف تجد فيه خطوات التاسكات 
