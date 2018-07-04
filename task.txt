@@ -1,0 +1,19 @@
+<?php
+$num1=10;                           //num1
+$num2=15;                          //num2
+$num3=13;                          // num3
+$result = $num1 * $num2 ;          //the result is the  mult two number 
+$mod = $result % $num3 ;           //the  module  is the  mod   of the result of two num with the thired number 
+ 
+if($mod == 8)        //cheak   
+ 
+  {echo "this num equle 8 " ."<br>" .   "the mod is => " .  $mod;}    //cheak  if $mod equle 8   and print comment with  $mod
+elseif($mod > 8)
+  
+{echo "this num bigger 8 "  . "<br>" .   "the mod is => " .  $mod;}   //cheak  if $mod bigger  8   and print comment with $mod
+else 
+  
+{echo "this num not equle 8 " . "<br>".  "the mod is => " . $mod;}     //cheak  if $mod not equle  8   and print comment with  $mod
+ 
+ 
+?>
