@@ -8,4 +8,4 @@
 |step5 |`git commit -m "your-comment"`| 
 |step6 |`git checkout -b your-branch-name` | 
 |step7 |`git push -u origin your-branch-name`| 
-**Contract me :** [Mico](t.me/anime19) **.**
+**Contract me :** [Mico](https://t.me/anime19) **.**
