@@ -1,8 +1,10 @@
 # add file to repository
-1. clone repository **git clone git@github.com:basic-php/task1.git**
-2. create folder name him **your-name**
-3. create file name him **index.php** inside folder your-name
-4. write **git add .** to add file
-5. write **git commit -m "your-comment"**
-6. write **git checkout -b your-branch** for change to your branch
-7. write **git push -u origin your-branch** 
+| steps | commands |
+| ------------- |:-------------:|
+|step1 | `git clone git@github.com:basic-php/task1.git`| 
+|step2 | `cd task1`| 
+|step3 | `nano index.php` | 
+|step3 | `git add .`| 
+|step3 | `git commit -m "your-comment"`| 
+|step3 | `git checkout -b your-branch-name` | 
+|step3 | `git push -u origin your-branch-name`| 
