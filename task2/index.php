@@ -7,12 +7,17 @@ function Years($date1,$date2)  {
   
    return "date1 = 2005<2010 or  date2 = 2021>2020 ";
 
- }else
-   
+ }else{
+
+ // $time ="";
+  
 for ($i=$date1; $i<=$date2 ; $i++) { // والا اذا لم يتحقق الشرط الاول يتحقق الثاني وهو عدد السنوات من 2010 الى 2020
-    echo $i ."<br>";
+  
+  // $time .= $i ."<br>";
+  echo $i ."<br>";
 }  
- 
+ //return $time;
+}
 
 }
 echo "<h2> 1- condition1 is vaild  if date1<2010 or date2>2020  </h2>";//عنوان توضيحي للشرط الاول
