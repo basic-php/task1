@@ -1,9 +1,8 @@
 <?php
     $arr = array("mustafa","naser","ahmed","mohemmed"); // creating array
 
-    $arr[] = "omar"; //adding element to the array
-    $arr[] = "omar"; //adding element to the array
-
+    array_push($arr,"omar","omar"); //adding element to the array
+    
     echo "<pre>";
     print_r($arr); //printing array
     echo "</pre>";
@@ -18,10 +17,6 @@
     $rand = array_rand($arr,2); // pick a random element from the array
 
     echo "-------------------- <br>";
-    echo "<pre>";
-    print_r($rand); //printing random element index 
-    echo "</pre>";
-
     echo $arr[$rand[0]] . "<br>"; //printing random element
     echo $arr[$rand[1]]. "<br>";  //printing random element
     echo "-------------------- <br>";
