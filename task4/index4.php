@@ -9,9 +9,13 @@ print_r($arr);
 echo "</pre>";
 
 //3) shffle the string charcter
-$str= implode(" ", $arr);
-echo str_shuffle($str)."<br><br>";
+shuffle($arr);
 
+foreach ($arr as $i)
+{
+    echo $i." ";
+}
+echo "<br><br>";
 //4) upper case String
 $up= implode(" ", $arr);
 echo ucwords($str)."<br><br>";
