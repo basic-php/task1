@@ -31,9 +31,9 @@
 
 
 
-  $str2 = "@mustaf\a"; 
-  $ns = stripslashes($str2); // remove back slashes
-  echo "<br>". str_replace("@","",$ns); 
+  $str2 = "<a href='#'> mustaf\a <a>"; 
+  $ns = stripslashes(strip_tags($str2)); // remove back slashes
+  echo "<br>". $ns; 
   // remove or (replace) @ the tag
 
 ?>
