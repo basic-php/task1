@@ -9,14 +9,14 @@ function Years($date1,$date2)  {
 
  }else{
 
- // $time ="";
+  $time ="";
   
 for ($i=$date1; $i<=$date2 ; $i++) { // والا اذا لم يتحقق الشرط الاول يتحقق الثاني وهو عدد السنوات من 2010 الى 2020
   
-  // $time .= $i ."<br>";
-  echo $i ."<br>";
+  $time .= $i ."<br>";
+  //echo $i ."<br>";
 }  
- //return $time;
+  return $time;
 }
 
 }
