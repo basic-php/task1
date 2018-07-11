@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f63dab9-6c88-47ba-a49c-905ec1a890e8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +16,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tasks/task4/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="300">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -122,6 +122,7 @@
       <updated>1531113450331</updated>
       <workItem from="1531113452635" duration="302000" />
       <workItem from="1531113515542" duration="1462000" />
+      <workItem from="1531113490462" duration="1200000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1531113627597</created>
@@ -134,7 +135,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1764000" />
+    <option name="totallyTimeSpent" value="2964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="750" extended-state="6" />
@@ -184,6 +185,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tasks/task4/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/task4/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
@@ -191,8 +199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/task4/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="300">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
