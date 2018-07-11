@@ -1,31 +1,35 @@
 <?php
 
-$str1="ilove php";
-//تم تحويل النص الى مصفوفه وحفظها في المتغير $arr
-$arr=str_split($str1);
-// طباعة المصفوفه
+$str1="be patient the lessons you learn today will benefit you tomorrow";
+//تم حساب عدد حروف النص 
+$count=strlen($str1);
+$arr=explode(" ",$str1);
 echo "<pre>";
-print_r($arr);
+ print_r ($arr );
 echo "</pre>";
-//تم تحويل الحروف الى نص من جديد 
-$str2=implode(" ",$arr);
-//عرض النص بشكل حروف بشكل عشوائي يتغير كل ما يتم الصفحه
-$str3=str_shuffle($str2);
-echo $str3 ."<br>" ;
-//تحويل اول حرف من المصفوفه الى حرف كبير
-$str4=ucfirst($str2);
-echo "<br>".  $str4  ."<br>";
-//عمل عداد يحسب عدد حروف النص اذا كان عددهم اكبر من 6 يتم طباعة نعم اذا لا يتم طباعة كلمة لا
-$count=str_word_count($str2);
-if($count>6){
-              echo "نعم" ."<br>";
-            }else
-            {   
-              echo "لا" ."<br>";
-            }
+//طباعة المصفوفه بشكل عشوائي
+$ran=array_rand($arr,6);
+echo $arr[$ran[0]]. "<br>";
+echo $arr[$ran[1]]. "<br>";
+echo $arr[$ran[2]]. "<br>";
+echo $arr[$ran[3]]. "<br>";
+echo $arr[$ran[4]]. "<br>";
+echo $arr[$ran[5]]. "<br>";
 
-  $as=" i'love'php'much";
-  $sk=addslashes($as);          
-  echo  $sk;
+//  اعادة المصفوفه الى نص ثم طباعة اول حروف من النص كابتل 
+$str2=implode($arr);
+echo "<br> ".ucfirst($str2)   ."<br>";
+//مقارنه اذا كان عدد الحروف اكبر من 6 يطبع نعم اما اذا لا يطبع لا
+if($count>6){
+  echo "نعم";
+
+}else {
+  echo "لا";
+}
+
+// تم عمل نص اخر 
+$str3="i '<br>' learn '<b>' php ";
+$add=addslashes(strip_tags($str3));
+echo($add);
 
 ?>
