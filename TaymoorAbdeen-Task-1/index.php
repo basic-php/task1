@@ -1,2 +1,49 @@
 <?php
+$number1 = 10;
+$number2 = 15;
+$number3 = 13;
+
+$mul = $number1  * $number2 * $number3;
+
+$mod = $mul % $number1;
+if ($mod == 8)
+echo "This is greater equal to 8".$mod;
+else if ($mod >8)
+echo "This is greater gratet than 8";
+else
+echo "This is another";
+
+$mod = $mul % $number2;
+if ($mod == 8)
+echo "This is greater equal to 8".$mod;
+else if ($mod >8)
+echo "This is greater gratet than 8";
+else
+echo "This is another";
+
+$mod = $mul % $number3;
+if ($mod == 8)
+echo "This is greater equal to 8".$mod;
+else if ($mod >8)
+echo "This is greater gratet than 8";
+else
+echo "This is another";
+
+
+
+/*
+ÇæáÇ äÇÎÐ ãÖÑæÈ ÇáÚÏÏ æäÖÚå Ýí ãÊÛíÑ ÇÓãå  
+mul
+Ëã äÇÎÐ ßá ÚÏÏ æäÓÊÎÑÌ ÈÇÞí ÇáÝÓãÉ æäÖÚ ÇáäÊíÌÉ Ýí ãÊÛíÑ ÇÓãå 
+mod
+Ëã äÞÇÑä 
+åá ÊÓÇæí ÑÞã 8 ãÚ ÈÇÞí ÇáÞÓãÉ ÇáÐí ãÎÒæä Ýí 
+mod
+ÇÐÇ äÚã : ÇØÈÚ äÕ
+æÇáÇ ÇÐÇ ßÇä ÇßÈÑ ãä 8 
+ÇÐÇ äÚã : ÇØÈÚ äÕ ãÚ ÑÞã ËãÇäíÉ
+æÇáÇ 
+ÇØÈÚ äÕ
+*/
+
 ?>
