@@ -8,6 +8,7 @@ $stNames[4] = "ali";
 print_r($stNames);
 echo '<br> <br>';
 
+// sorting ascendingly
  sort($stNames);
 print_r($stNames);
 echo '<br> <br>';
@@ -17,6 +18,7 @@ echo '<br> <br>';
    print_r(array_rand($stNames,2));
    echo '<br> <br>';
 
+// calling both functions on the same line
   print_r(array_unique($stNames));
 
 
