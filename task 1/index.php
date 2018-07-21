@@ -1,8 +1,7 @@
 <?php
 $var = 10*15*13;
 
-// to be honest I can't understand the document properly so
-// I will go here with what I have understood 
+ 
 
 $modFirst = $var%10;
 $modSecond = $var%15;
