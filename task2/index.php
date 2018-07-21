@@ -4,7 +4,7 @@ function datee($d1,$d2)
 {
     
      
-
+    // comparing both values 
     if($d1<2010 || $d2>2020)
      echo "condition is met <br>";
      
@@ -19,6 +19,7 @@ function datee($d1,$d2)
  
 
 }
+// now we call the function
   datee(2010,2055);
   datee(2015,2019);
 
