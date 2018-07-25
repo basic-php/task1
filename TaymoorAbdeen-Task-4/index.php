@@ -1,3 +1,67 @@
 <?php
 
+////////////////////////////// (1) //////////////////////////////
+
+//  ÕÊÌ· ‰’ «·Ï „’›Ê›…
+$str = "this is solve task-4 of issa soffer";
+
+$arr =  explode(" ", $str);
+
+// ‰⁄—÷ Õ Ï ‰ √ﬂœ „‰  ÕÊ· «·‰’ «·Ï «·„’›Ê›…
+echo "<pre>";
+print_r($arr);
+echo "</pre>";
+
+
+////////////////////////////// (2) //////////////////////////////
+
+// ÿ»«⁄… œ«Œ· «·„’›Ê›…
+foreach ($arr as $value)
+{
+    echo $value . "<br>";
+}
+
+
+////////////////////////////// (3) //////////////////////////////
+
+// ÿ»«⁄… ‰’ ⁄‘Ê«∆Ì
+$randndex = array_rand($arr, 1);
+$randString = $arr[$randndex];
+echo $randString . "<br>";
+
+
+////////////////////////////// (4) //////////////////////////////
+
+// ⁄„· «Ê· Õ—› ﬂ»Ì— ··‰’ «·Œ«—Ã „‰ «·„’›Ê›…
+$randString = ucfirst($randString);
+echo $randString . "<br>";
+
+
+////////////////////////////// (5) //////////////////////////////
+
+// Õ”«» ÿÊ· «·‰’  «–« ﬂ»— „‰ 6 «ÿ»⁄ ‰⁄„
+if (strlen($str) > 6)
+{
+    echo "yes" . "<br>";
+}
+// Ê«·« «ÿ»⁄ ·«
+else
+{
+    "no" . "<br>";
+}
+
+////////////////////////////// (6) //////////////////////////////
+
+// ‰’ Õ–›  «ﬂ«  „‰Â Ê«÷«›… ”·«‘ «·ÌÂ
+
+$str2 = "My name's <b>taymoor</b> and my website is <a>taymoor.com</a> and i'm learning <i>php</i>";
+
+echo $str2 . "<br>"; // ÿ»⁄ ‰’ «’·Ì
+// ﬁ„  »Õ–›  «ﬂ« 
+$strWithoutTags = strip_tags($str2);
+echo $strWithoutTags . "<br>"; // ÿ»⁄ »⁄œ Õ–›  «ﬂ« 
+// ﬁ„  »«÷«›… ”·«‘
+$strWithslashes = addslashes($str2);
+echo $strWithslashes . "<br>"; // ÿ»⁄ »⁄œ «÷«›…  «ﬂ« 
+
 ?>
