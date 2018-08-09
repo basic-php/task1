@@ -38,4 +38,5 @@ echo "3- The Sub String: (**" .$BranchString ."**) <br> <br>";
 # Adds Content From Another Page And If The Page Doesn't Exist , Then No Thing Will Happen To The Webpage
 @include 'page2.php';
 
+
 ?>
