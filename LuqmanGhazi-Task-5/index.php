@@ -1,6 +1,6 @@
 <?php
 //=====================================================
-//=====Task 5: Advanced String And File Opreations=====
+//==== Task 5: Advanced String And File Opreations ====
 //=====================================================
 
 # 1-
